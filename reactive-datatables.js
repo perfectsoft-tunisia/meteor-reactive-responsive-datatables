@@ -1,4 +1,4 @@
-import {ResponsiveDatatablesHelper} from './reactive-helper.js';
+import {ResponsiveDatatablesHelper} from './responsive-helper.js';
 import {$} from 'meteor/jquery';
 import {_} from 'meteor/underscore';
 
