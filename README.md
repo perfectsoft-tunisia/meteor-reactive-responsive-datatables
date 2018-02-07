@@ -5,7 +5,7 @@ Provides a [meteor.js](http://www.meteor.com) way of using [jquery.dataTables](h
 
 ## Installation
 
-`meteor add ephemer:reactive-datatables`
+`meteor add perfectsofttunisia:reactive-responsive-datatables`
 
 ## Usage
 
@@ -40,7 +40,7 @@ Set up your datatable's options as per the jquery.dataTables API, e.g.:
         // issues during development. Set saveState: false here to disable this.
 
     }
-    
+
     function renderPhoto(cellData, renderType, currentRow) {
         // You can return html strings, change sort order etc. here
         // Again, see jquery.dataTables docs
@@ -54,7 +54,7 @@ Then just provide the options and data to the DataTable view Meteor's helpers:
         reactiveDataFunction: function () {
             return dataTableData;
         },
-        
+
         // NOTE: The following line has to appear AFTER you define options (as we did above):
         optionsObject: optionsObject
     });
